@@ -29,4 +29,4 @@ def guess(x):
 
     print(f'Você acertou! o número é {num_aleatorio}.')
 
-guess(999)
+guess(10)

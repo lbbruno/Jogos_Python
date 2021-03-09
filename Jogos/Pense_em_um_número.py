@@ -32,4 +32,4 @@ def computador_adivinha(x):
             maior_num = escolha_pc - 1
     print('Acertei!!! Vamos jogar novamente?')
 
-computador_adivinha(10)
+computador_adivinha(999)
