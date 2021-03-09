@@ -7,7 +7,7 @@ Jogos simples em Python TKinter<br>
 
 ## Computador Adivinha o Número
 * Neste exercício o computador tentará adivinhar o número que o usuário pensou<br>
-<img src="img/Computador_Adivinha.png" alt="">
+<img src="img/Computador_adivinha.png" alt="">
 
 ## Pedra / Papel / Tesoura
 * Famoso JO-KEN-PO!<br>
