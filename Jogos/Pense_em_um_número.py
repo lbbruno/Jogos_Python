@@ -2,6 +2,17 @@ import random
 from time import sleep
 
 def cabecalho(titulo):
+    """ -> Cabeçalho
+        Exibe na tela o título do programa e modela de acordo com o número de caracteres
+
+        // Output
+        ======================
+          Titulo do Programa
+        ======================
+
+        :param titulo: dada como parâmetro ao chamar a função
+        :return:
+        """
     div = '=' * int(len(titulo) + 4)
     titulo = '  ' + titulo
     print(f'{div}\n{titulo}\n{div}')
