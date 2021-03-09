@@ -2,7 +2,9 @@ import random
 from time import sleep
 
 def cabecalho(titulo):
-
+    div = '=' * int(len(titulo) + 4)
+    titulo = '  ' + titulo
+    print(f'{div}\n{titulo}\n{div}')
 
 def computador_adivinha(x):
     cabecalho('Pense em um número')

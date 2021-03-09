@@ -1,6 +1,13 @@
 import random
 
+def cabecalho(titulo):
+    div = '=' * int(len(titulo) + 4)
+    titulo = '  ' + titulo
+    print(f'{div}\n{titulo}\n{div}')
+
 def play():
+    cabecalho('PEDRA / PAPEL / TESOURA')
+
     lista = ['pedra', 'papel', 'tesoura']
     print('Faça sua escolha...')
     escolha = int(input('[1]Pedra [2]Papel [3]Tesoura:'))
